@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+header {
+    background: #F8F8F8;
+
+}
+
+footer {
+    background-color: #143774;
+    padding: 2em 0;
+    color: #FFFFFF;
+    font-size: .8em;
+}
+
+ h3 {
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+    font-weight: lighter;
+}
+
+h1 {
+    margin: 0;
+    color: #143774;
+}
+
+nav p {
+    margin: 0;
+    color: #1792D2;
+    font-weight: 600;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 3em 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+li {
+    margin-left: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #717171;
+    font-weight: 700;
+}
+
+.columns {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 2em;
+    align-items: flex-start;
+}
+
+.col1 {
+    width: 70%;
+    ;
+}
+
+.col2 {
+    width: 20%;
+   
+}
+
+.item2 {
+    border: 10px solid #EBEBEB;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.item1 img {
+    width: 100%;
+}
+
+.item2 img {
+    width: 100%;
+}
+
+.underline {
+    border-bottom: 1px solid grey;
+    width: 100%;
+    margin: 1em 0;
+}
+
+.item3{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+}
+
+.item3 img {
+    width: 100%;
+
+}
+
+.image-holder {
+    width: 40%;
+}
+
+.contents {
+    width: 55%;
+}
+
+.item4 {
+    border: 10px solid #EBEBEB;
+    padding: 1em;
+}
+
+.item4 img {
+    width: 100%;
+}
+
+h2 {
+    color: #143774;
+}
+
+main p {
+    color: #707070;
+}
+
+main a {
+    text-decoration: none;
+    color: #1792D2;
+    font-weight: 700;
+}
+
+.item1 a {
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+@media (max-width: 670px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    nav li {
+        margin-left: 0;
+    }
+    .item3 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .columns {
+        flex-direction: column;
+    }
+
+    .col1,.col2,.image-holder,.contents {
+        width: 100%;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+
+}
